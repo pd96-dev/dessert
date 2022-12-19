@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-image: url(tharbackimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 20vh;
+    cursor: pointer;
+}
+
+/*
+.img{
+    max-width:150vmax ;
+    max-height: 100vmax;
+    
+}
+*/
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2px;
+    border: 2px solid transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(216, 90, 78);
+    font-size: 19px;
+    border: 2px solid;
+
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+nav ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.menu-icon {
+    width: 6vh;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col_1 {
+    flex-basis: 50%;
+    margin-left: 2vw;
+}
+
+.col_2 {
+    flex-basis: 25%;
+}
+
+.col_3 {
+    flex-basis: 25%;
+}
+
+h1 {
+    color: 
+    
+    rgb(3, 10, 97);
+    font-size: 70px;
+}
+
+h2 {
+    color: rgb(58, 10, 10);
+    font-size: 15px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 11px;
+}
+
+.thar_paragraph {
+    font: optional;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 25px;
+}
+.card_para {
+    font: optional;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 19px;
+}
+
+
+
+button {
+    color: brown;
+    font-size: 15px;
+    padding: 5px 5px;
+    background: #fff432;
+    border: 5px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.btn_explor {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn_explor:hover {
+    background-color: black;
+    color: #fff432;
+
+}
+
+.card {
+    width: 25vw;
+    height: 35vh;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+
+.card2 {
+    background-image: url(img-5.jpg);
+    object-fit: contain;
+}
+
+.card1 {
+    background-image: url(giz.jpg);
+    object-fit: contain;
+}
+
+.card:hover {
+    transform: translateY(-100px);
+}
